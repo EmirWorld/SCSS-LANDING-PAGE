@@ -1,7 +1,7 @@
 {
-  "name": "landing-page-scss",
+  "name": "Spotify_Landing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Spotify landing page built with scss technology and some architectures",
   "main": "index.js",
   "dependencies": {
     "live-server": "^1.2.1",
@@ -11,6 +11,6 @@
   "scripts": {
     "compile-sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "",
+  "author": "Emir Kovacevic",
   "license": "ISC"
 }
