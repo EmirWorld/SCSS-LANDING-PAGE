@@ -7,7 +7,8 @@
     <list default="true" id="5d9de78a-4fd1-4b07-8a0d-feab22bcfb66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600855084341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented BEM Architecture">
+      <created>1600858093779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600858093779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,7 +66,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Logo &amp; headings &amp; button all with animations added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo &amp; headings &amp; button all with animations added" />
+    <MESSAGE value="Implemented BEM Architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented BEM Architecture" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2427" y="346" width="800" height="719" key="#Plugins" timestamp="1600842646805">
@@ -65,10 +75,10 @@
     </state>
     <state x="2427" y="346" width="800" height="719" key="#Plugins/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842646805" />
     <state x="2427" y="346" width="800" height="719" key="#Plugins/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600786347609" />
-    <state x="2170" y="237" width="930" height="917" key="CommitChangelistDialog2" timestamp="1600855084235">
+    <state x="2170" y="237" width="930" height="917" key="CommitChangelistDialog2" timestamp="1600858093724">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
-    <state x="2170" y="237" width="930" height="917" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600855084235" />
+    <state x="2170" y="237" width="930" height="917" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600858093724" />
     <state x="2411" y="436" width="447" height="520" key="FileChooserDialogImpl" timestamp="1600787388931">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
@@ -86,18 +96,22 @@
     </state>
     <state x="2129" y="327" key="SettingsEditor/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842752029" />
     <state x="2129" y="327" width="1022" height="737" key="SettingsEditor/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600787135093" />
-    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600855087814">
+    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600858096923">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
-    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600855087814" />
+    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600858096923" />
+    <state x="2250" y="301" width="770" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600860422225">
+      <screen x="1680" y="142" width="1920" height="1080" />
+    </state>
+    <state x="2250" y="301" width="770" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600860422225" />
     <state x="2421" y="607" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600846853992">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2421" y="607" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600846853992" />
-    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup" timestamp="1600842730923">
+    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup" timestamp="1600860419891">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842730923" />
-    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600786265093" />
+    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600860419891" />
   </component>
 </project>
