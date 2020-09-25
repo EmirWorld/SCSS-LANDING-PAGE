@@ -8,10 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_utilies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilies.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,12 @@
   <component name="GOROOT" path="/snap/go/current" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hs41KBBblAhdPjBTx2f8ivANy9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,7 +44,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600863010495</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added grid simple grid system">
+      <created>1600957487414</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600957487414</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,18 +109,19 @@
     <MESSAGE value="Implemented SCSS arhitecture" />
     <MESSAGE value="Implemented SCSS architecture 7-1" />
     <MESSAGE value="package.json updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="package.json updated" />
+    <MESSAGE value="Added grid simple grid system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added grid simple grid system" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2427" y="346" width="800" height="719" key="#Plugins" timestamp="1600842646805">
+    <state x="2427" y="346" width="800" height="719" key="#Plugins" timestamp="1600958149705">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2427" y="346" width="800" height="719" key="#Plugins/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842646805" />
-    <state x="2427" y="346" width="800" height="719" key="#Plugins/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600786347609" />
-    <state x="2170" y="237" width="930" height="917" key="CommitChangelistDialog2" timestamp="1600863010435">
+    <state x="2427" y="346" width="800" height="719" key="#Plugins/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600958149705" />
+    <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2" timestamp="1600957487256">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
-    <state x="2170" y="237" width="930" height="917" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600863010435" />
+    <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957487256" />
     <state x="2411" y="436" width="447" height="520" key="FileChooserDialogImpl" timestamp="1600787388931">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
@@ -118,15 +134,15 @@
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2370" y="369" width="530" height="653" key="Github.UntrackedFilesDialog/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600787625896" />
-    <state x="2129" y="327" width="1022" height="737" key="SettingsEditor" timestamp="1600842752029">
+    <state x="2129" y="327" width="1022" height="737" key="SettingsEditor" timestamp="1600958185074">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2129" y="327" key="SettingsEditor/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842752029" />
-    <state x="2129" y="327" width="1022" height="737" key="SettingsEditor/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600787135093" />
-    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600863013160">
+    <state x="2129" y="327" width="1022" height="737" key="SettingsEditor/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600958185074" />
+    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600957489831">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
-    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600863013160" />
+    <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957489831" />
     <state x="2250" y="301" width="770" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600860422225">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
@@ -135,10 +151,14 @@
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2421" y="607" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600846853992" />
-    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup" timestamp="1600957300964">
+    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup" timestamp="1601046721840">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842730923" />
-    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957300964" />
+    <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1601046721840" />
+    <state x="2365" y="606" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601041042089">
+      <screen x="1680" y="142" width="1920" height="1080" />
+    </state>
+    <state x="2365" y="606" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1601041042089" />
   </component>
 </project>
