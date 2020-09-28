@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d9de78a-4fd1-4b07-8a0d-feab22bcfb66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
     </list>
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601299364245</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Starting section music">
+      <created>1601301406373</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301406373</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +134,8 @@
     <MESSAGE value="Added grid simple grid system" />
     <MESSAGE value="Added photo composition" />
     <MESSAGE value="Section feature added, icons added , section-box component created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section feature added, icons added , section-box component created" />
+    <MESSAGE value="Starting section music" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting section music" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2269" y="311" width="732" height="644" key="#Inspections" timestamp="1601218306511">
@@ -145,11 +152,11 @@
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2381" y="501" width="508" height="264" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202710794" />
-    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2" timestamp="1601299364013">
+    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2" timestamp="1601301406238">
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957487256" />
-    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601299364013" />
+    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301406238" />
     <state x="2411" y="370" width="501" height="520" key="FileChooserDialogImpl" timestamp="1601202872819">
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
