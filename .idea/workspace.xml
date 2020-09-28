@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9de78a-4fd1-4b07-8a0d-feab22bcfb66" name="Default Changelist" comment="Added photo composition">
+    <list default="true" id="5d9de78a-4fd1-4b07-8a0d-feab22bcfb66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_compostion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_compostion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601218378626</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added photo composition">
+      <created>1601219262141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601219262141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,11 +139,11 @@
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2381" y="501" width="508" height="264" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202710794" />
-    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2" timestamp="1601219251390">
+    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2" timestamp="1601219262079">
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957487256" />
-    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601219251390" />
+    <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601219262079" />
     <state x="2411" y="370" width="501" height="520" key="FileChooserDialogImpl" timestamp="1601202872819">
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
@@ -153,11 +163,11 @@
     <state x="2129" y="327" key="SettingsEditor/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842752029" />
     <state x="2129" y="327" width="1022" height="737" key="SettingsEditor/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600958185074" />
     <state x="2129" y="261" key="SettingsEditor/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202875028" />
-    <state x="2235" y="362" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601218386570">
+    <state x="2235" y="362" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601219264703">
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957489831" />
-    <state x="2235" y="362" key="Vcs.Push.Dialog.v2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601218386570" />
+    <state x="2235" y="362" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601219264703" />
     <state x="2250" y="301" width="770" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600860422225">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
@@ -166,12 +176,12 @@
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2421" y="607" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600846853992" />
-    <state x="2303" y="330" width="672" height="678" key="search.everywhere.popup" timestamp="1601218447850">
+    <state x="2303" y="330" width="672" height="678" key="search.everywhere.popup" timestamp="1601298304080">
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842730923" />
     <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1601046721840" />
-    <state x="2303" y="330" width="672" height="678" key="search.everywhere.popup/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601218447850" />
+    <state x="2303" y="330" width="672" height="678" key="search.everywhere.popup/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601298304080" />
     <state x="2365" y="606" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601041042089">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>

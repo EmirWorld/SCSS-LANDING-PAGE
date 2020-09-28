@@ -8,3 +8,13 @@
   // Empty for now, there is no need adjustment for box
   }
 }
+
+.section-features{
+  background-image: linear-gradient(to right bottom, $color-primary--dark,$color-primary--light);
+  padding: 20rem 0;
+  margin-top: -20vh;
+  transform: skew(0deg, -7deg);
+  &>*{
+    transform: skew(0deg, 7deg);
+  }
+}
