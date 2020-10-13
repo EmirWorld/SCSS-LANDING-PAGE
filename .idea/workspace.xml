@@ -8,8 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602517166467</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added contact us section and from component">
+      <created>1602624118878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602624118878</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +183,8 @@
     <MESSAGE value="Finishing building cards and music section" />
     <MESSAGE value="Section story added and story component implemented" />
     <MESSAGE value="Section story small polish and moving next section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section story small polish and moving next section" />
+    <MESSAGE value="Added contact us section and from component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added contact us section and from component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2269" y="311" width="732" height="644" key="#Inspections" timestamp="1601218306511">
@@ -194,12 +201,13 @@
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2381" y="501" width="508" height="264" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202710794" />
-    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2" timestamp="1602517166366">
+    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2" timestamp="1602624118661">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957487256" />
     <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301435951" />
     <state x="1176" y="1106" width="912" height="917" key="CommitChangelistDialog2/678.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@678.1050.1920.1080" timestamp="1601477012167" />
+    <state x="1184" y="1106" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1602624118661" />
     <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1602517166366" />
     <state x="2411" y="370" width="501" height="520" key="FileChooserDialogImpl" timestamp="1601202872819">
       <screen x="1680" y="76" width="1920" height="1080" />
@@ -220,12 +228,13 @@
     <state x="2129" y="327" key="SettingsEditor/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842752029" />
     <state x="2129" y="327" width="1022" height="737" key="SettingsEditor/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600958185074" />
     <state x="2129" y="261" key="SettingsEditor/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202875028" />
-    <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602517168513">
+    <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602624120736">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957489831" />
     <state x="2235" y="362" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301438787" />
     <state x="1233" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2/678.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@678.1050.1920.1080" timestamp="1601477014529" />
+    <state x="1241" y="1336" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1602624120736" />
     <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1602517168513" />
     <state x="2250" y="301" width="770" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600860422225">
       <screen x="1680" y="142" width="1920" height="1080" />
