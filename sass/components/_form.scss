@@ -51,15 +51,19 @@
   }
 
   &__radio-group {
-    width: 50%;
+    width: 40%;
     display: inline-block;
+  }
+
+  &__radio-input{
+    display: none;
   }
 
   &__radio-label {
     font-size: 1.6rem;
     cursor: pointer;
     position: relative;
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
 
   &__radio-button {
@@ -69,7 +73,7 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: -2rem;
+    left: .5rem;
     top: -.5rem;
 
     &::after {
@@ -84,10 +88,11 @@
       transform: translate(-50%,-50%);
       background-color: $color-primary;
       opacity: 0;
+      trasnition: opacity .2s;
     }
   }
 
-  &__radio-input{
-
+  &__radio-input:checked + &__radio-label &__radio-button::after{
+    opacity: 1;
   }
 }
