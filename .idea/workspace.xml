@@ -8,10 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/_utilies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilies.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602625742392</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished form and added footer">
+      <created>1604754096248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604754096248</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +200,8 @@
     <MESSAGE value="Section story small polish and moving next section" />
     <MESSAGE value="Added contact us section and from component" />
     <MESSAGE value="trying implement custom radio button with css" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying implement custom radio button with css" />
+    <MESSAGE value="finished form and added footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished form and added footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2269" y="311" width="732" height="644" key="#Inspections" timestamp="1601218306511">
@@ -213,14 +218,14 @@
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2381" y="501" width="508" height="264" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202710794" />
-    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2" timestamp="1602625742300">
+    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2" timestamp="1604754096046">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957487256" />
     <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301435951" />
     <state x="1176" y="1106" width="912" height="917" key="CommitChangelistDialog2/678.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@678.1050.1920.1080" timestamp="1601477012167" />
     <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1602625742300" />
-    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1602517166366" />
+    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1604754096046" />
     <state x="1281" y="1381" width="719" height="452" key="EditFileWatcherDialog" timestamp="1604751516956">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
@@ -244,14 +249,14 @@
     <state x="2129" y="327" key="SettingsEditor/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842752029" />
     <state x="2129" y="327" width="1022" height="737" key="SettingsEditor/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600958185074" />
     <state x="2129" y="261" key="SettingsEditor/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202875028" />
-    <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602625745621">
+    <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604754098321">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="2235" y="428" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957489831" />
     <state x="2235" y="362" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301438787" />
     <state x="1233" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2/678.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@678.1050.1920.1080" timestamp="1601477014529" />
     <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1602625745621" />
-    <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1602517168513" />
+    <state x="1241" y="1336" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1604754098321" />
     <state x="2250" y="301" width="770" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600860422225">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
@@ -260,7 +265,7 @@
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
     <state x="2421" y="607" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600846853992" />
-    <state x="1309" y="1304" width="672" height="678" key="search.everywhere.popup" timestamp="1604752706839">
+    <state x="1309" y="1304" width="672" height="678" key="search.everywhere.popup" timestamp="1604755370984">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="2303" y="396" width="672" height="678" key="search.everywhere.popup/1680.142.1920.1080/0.163.1680.887/3600.18.1680.1050@1680.142.1920.1080" timestamp="1600842730923" />
@@ -268,7 +273,7 @@
     <state x="2303" y="330" width="672" height="678" key="search.everywhere.popup/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301958177" />
     <state x="1301" y="1304" width="672" height="678" key="search.everywhere.popup/678.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@678.1050.1920.1080" timestamp="1601476715582" />
     <state x="1309" y="1304" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1603796814571" />
-    <state x="1309" y="1304" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1604752706839" />
+    <state x="1309" y="1304" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1604755370984" />
     <state x="2365" y="606" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601041042089">
       <screen x="1680" y="142" width="1920" height="1080" />
     </state>
