@@ -22,15 +22,47 @@ body {
     letter-spacing: 1.5rem;
     text-align: center;
     animation: moveInLeft 1s ease-out;
+
+    @include mQuery(tab-land){
+      font-size: 4rem;
+    }
+
+    @include mQuery(tab-port){
+      font-size: 3rem;
+      letter-spacing: 1rem;
+    }
+
+    @include mQuery(phone){
+      font-size: 2rem;
+      letter-spacing: .8rem;
+    }
+
   }
 
   &--sub {
     display: block;
     font-size: 2rem;
     font-weight: 400;
-    letter-spacing: 4.7rem;
+    letter-spacing: 2rem;
     animation: moveInRight 1s ease-out;
+
+    @include mQuery(tab-land){
+      font-size: 1.7rem;
+      letter-spacing: 1rem;
+    }
+
+    @include mQuery(tab-port){
+      font-size: 1.5rem;
+      letter-spacing: 1rem;
+    }
+
+    @include mQuery(phone){
+      font-size: 1rem;
+      letter-spacing: 1rem;
+    }
   }
+
+
 }
 
 .heading-secondary{
@@ -43,6 +75,18 @@ body {
   color: transparent;
   transition: all .2s;
 
+  @include mQuery(tab-land){
+    font-size: 3rem;
+  }
+
+  @include mQuery(tab-port){
+    font-size: 2.5rem;
+  }
+
+  @include mQuery(phone){
+    font-size: 2rem;
+  }
+
   &:hover{
     transform: skewY(2deg);
   }
@@ -52,10 +96,18 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
+
+  @include mQuery(tab-land){
+    font-size: 1.5rem;
+  }
+
 }
 .paragraph{
   font-size: 1.6rem;
 
+  @include mQuery(tab-land){
+    font-size: 1.5rem;
+  }
   &:not(:last-child){
     margin-bottom: 6rem;
   }

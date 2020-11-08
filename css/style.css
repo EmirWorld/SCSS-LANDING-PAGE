@@ -1,4 +1,21 @@
 /*
+0 - 600px: phone
+600px - 900px: tablet portrait mode
+900px - 1200px: tablet landscape
+1200px - 1800px : is where our normal styles apply
+1800px + : Big desktop
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+/*
 COLORS:
 */
 /*
@@ -33,10 +50,22 @@ GRID:
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
 
 body {
   margin: 2rem;
   box-sizing: border-box; }
+  @media (max-width: 75em) {
+    body {
+      margin: 0rem; } }
 
 body {
   font-family: 'Varela Round', sans-serif;
@@ -58,12 +87,35 @@ body {
     letter-spacing: 1.5rem;
     text-align: center;
     animation: moveInLeft 1s ease-out; }
+    @media (max-width: 75em) {
+      .heading-primary--main {
+        font-size: 4rem; } }
+    @media (max-width: 56.25em) {
+      .heading-primary--main {
+        font-size: 3rem;
+        letter-spacing: 1rem; } }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 2rem;
+        letter-spacing: .8rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 400;
-    letter-spacing: 4.7rem;
+    letter-spacing: 2rem;
     animation: moveInRight 1s ease-out; }
+    @media (max-width: 75em) {
+      .heading-primary--sub {
+        font-size: 1.7rem;
+        letter-spacing: 1rem; } }
+    @media (max-width: 56.25em) {
+      .heading-primary--sub {
+        font-size: 1.5rem;
+        letter-spacing: 1rem; } }
+    @media (max-width: 37.5em) {
+      .heading-primary--sub {
+        font-size: 1rem;
+        letter-spacing: 1rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -74,6 +126,15 @@ body {
   letter-spacing: .2rem;
   color: transparent;
   transition: all .2s; }
+  @media (max-width: 75em) {
+    .heading-secondary {
+      font-size: 3rem; } }
+  @media (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 2.5rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 2rem; } }
   .heading-secondary:hover {
     transform: skewY(2deg); }
 
@@ -81,9 +142,15 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase; }
+  @media (max-width: 75em) {
+    .heading-tertiary {
+      font-size: 1.5rem; } }
 
 .paragraph {
   font-size: 1.6rem; }
+  @media (max-width: 75em) {
+    .paragraph {
+      font-size: 1.5rem; } }
   .paragraph:not(:last-child) {
     margin-bottom: 6rem; }
 
@@ -572,7 +639,10 @@ body {
 
 .row {
   max-width: 144rem;
-  margin: 0 auto 8rem; }
+  margin: 0 4rem; }
+  @media (max-width: 75em) {
+    .row {
+      margin: 0 4rem; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
@@ -583,6 +653,13 @@ body {
     float: left; }
     .row [class^=col-]:not(:last-child) {
       margin-right: 6rem; }
+      @media (max-width: 56.25em) {
+        .row [class^=col-]:not(:last-child) {
+          margin-right: 0; } }
+    @media (max-width: 56.25em) {
+      .row [class^=col-] {
+        width: 100% !important;
+        padding: 2rem 4rem; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
