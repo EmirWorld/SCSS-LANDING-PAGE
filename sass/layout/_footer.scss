@@ -3,6 +3,10 @@
   padding: 10rem 0;
   font-size: 1.4rem;
 
+  @include mQuery(tab-land){
+    padding: 10rem 2rem;
+  }
+
   &__logo-box{
     text-align: center;
     margin-bottom: 8rem;

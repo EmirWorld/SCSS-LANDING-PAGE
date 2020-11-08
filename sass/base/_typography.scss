@@ -33,7 +33,7 @@ body {
     }
 
     @include mQuery(phone){
-      font-size: 2rem;
+      font-size: 1.7rem;
       letter-spacing: .8rem;
     }
 
