@@ -5,10 +5,16 @@
 
   @include mQuery(tab-land) {
     padding: 15rem 2rem;
+    margin-top: -13vh;
   }
 
+  @include mQuery(tab-port){
+    margin-top: -10vh;
+  }
+
+
   @include mQuery(phone) {
-    padding: 20rem 2rem;
+    padding: 15rem 2rem;
   }
 
   &__text-box {
@@ -26,13 +32,17 @@
 
   @include mQuery(tab-land) {
     padding: 15rem 2rem;
+    margin-top: -10vh;
     transform: skew(0deg, -4deg);
+  }
+
+  @include mQuery(tab-port){
+    margin-top: 0;
   }
 
   @include mQuery(phone) {
     padding: 10rem 2rem;
     transform: none;
-    margin-top: 20vh;
   }
 
   & > * {
@@ -56,9 +66,12 @@
     padding: 10rem 2rem;
     margin-top: -8vh;
   }
+  @include mQuery(tab-port){
+    margin-top: 0;
+  }
 
   @include mQuery(phone) {
-    padding: 10rem 2rem;
+    padding: 5rem 2rem;
     margin-top: 0;
   }
 }

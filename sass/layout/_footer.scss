@@ -3,6 +3,10 @@
   padding: 10rem 0;
   font-size: 1.4rem;
 
+  @include mQuery(tab-port){
+    padding: 8rem 0;
+  }
+
   @include mQuery(tab-land){
     padding: 10rem 2rem;
   }
@@ -22,6 +26,11 @@
     border-top: 1px solid $color-gray-dark;
     padding-top: 2rem;
     display: inline-block;
+
+    @include mQuery(tab-port){
+      width: 100%;
+      text-align: center;
+    }
 
   }
 
@@ -62,6 +71,11 @@
     padding-top: 2rem;
     width: 80%;
     float: right;
+
+    @include mQuery(tab-port){
+      width: 100%;
+      text-align: center;
+    }
   }
 
 }

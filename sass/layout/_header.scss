@@ -10,6 +10,14 @@
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 
+  @include mQuery(tab-land){
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+  }
+
+  @include mQuery(tab-port){
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  }
+
   @include mQuery(phone){
     clip-path: none;
     height: 90vh;
