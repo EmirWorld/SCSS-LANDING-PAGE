@@ -3,12 +3,27 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9de78a-4fd1-4b07-8a0d-feab22bcfb66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,11 +227,29 @@
       <option name="project" value="LOCAL" />
       <updated>1604938139328</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="finished queries, not perfect but it was practice next project will be pixel perfect! :) see ya">
+      <created>1605884115447</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605884115447</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Logo &amp; headings &amp; button all with animations added" />
@@ -240,7 +273,8 @@
     <MESSAGE value="Media query implemented for typography and grid system" />
     <MESSAGE value="Media query update" />
     <MESSAGE value="media query added for cards footer and more fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="media query added for cards footer and more fixes" />
+    <MESSAGE value="finished queries, not perfect but it was practice next project will be pixel perfect! :) see ya" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished queries, not perfect but it was practice next project will be pixel perfect! :) see ya" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2269" y="311" width="732" height="644" key="#Inspections" timestamp="1601218306511">
@@ -257,13 +291,13 @@
       <screen x="1680" y="76" width="1920" height="1080" />
     </state>
     <state x="2381" y="501" width="508" height="264" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601202710794" />
-    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2" timestamp="1604938138875">
+    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2" timestamp="1605884115030">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="2178" y="198" width="1222" height="969" key="CommitChangelistDialog2/1680.142.1920.1080/3600.18.1680.1050/0.163.1680.887@1680.142.1920.1080" timestamp="1600957487256" />
     <state x="2178" y="132" width="912" height="917" key="CommitChangelistDialog2/1680.76.1920.1080/3600.0.1680.1050/0.103.1680.948@1680.76.1920.1080" timestamp="1601301435951" />
     <state x="1176" y="1106" width="912" height="917" key="CommitChangelistDialog2/678.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@678.1050.1920.1080" timestamp="1601477012167" />
-    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1604938138875" />
+    <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605884115030" />
     <state x="1184" y="1106" width="912" height="917" key="CommitChangelistDialog2/686.1050.1920.1080/1680.0.1680.1050/0.0.1680.1050@686.1050.1920.1080" timestamp="1604763793497" />
     <state x="1281" y="1381" width="719" height="452" key="EditFileWatcherDialog" timestamp="1604751516956">
       <screen x="686" y="1050" width="1920" height="1080" />
